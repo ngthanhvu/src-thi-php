@@ -1,0 +1,19 @@
+{
+    "require": {
+        "google/apiclient": "^2.18",
+        "facebook/graph-sdk": "^5.1",
+        "phpmailer/phpmailer": "^6.9",
+        "illuminate/view": "^11.44",
+        "illuminate/events": "^11.44",
+        "illuminate/filesystem": "^11.44"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Core\\": "core/",
+            "App\\Controllers\\": "controller/",
+            "App\\Models\\": "model/",
+            "App\\Routers\\": "router/",
+            "App\\Views\\": "view/"
+        }
+    }
+}
